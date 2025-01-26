@@ -1,4 +1,4 @@
 
-[submodule "papaya"]
+[submodule "my_site/themes/papaya"]
 	path = my_site/themes/papaya
-	url = https://github.com/justint/papaya.git
+	url = https://github.com/aheyler/papaya.git
