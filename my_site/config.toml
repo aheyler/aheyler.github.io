@@ -12,13 +12,15 @@ theme = "papaya"
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
+highlight_themes_css = [ƒ
+  { theme = "material-dark", filename = "syntax-theme-dark.css" },
+  { theme = "material-light", filename = "syntax-theme-light.css" },
+]
 
 [extra]
 # Put all your custom variables here
-
 # Development environment. Used by the page macros to load remote content only when in "prod" mode
 env = "ZOLA_ENV"
-
 # Color theme mode. Options: light, dark, auto (automatically switch depending on OS/user agent settings)
 color_mode = "auto"
 
@@ -40,6 +42,8 @@ menu_items = [
 title = "Angelina Heyler"
 description = ""
 generate_feeds = true
+generate_feed = true
+feed_filename = "atom.xml"
 # The taxonomies to be rendered for the site and their configuration of the default languages
 taxonomies = [
     { name = "tags", feed = true, lang = "en" },
@@ -50,9 +54,8 @@ taxonomies = [
 projects = "Projects"
 blog = "Blog"
 about = "About"
-home = "Home"
 experience = "Experience"
-projects_list = "Projects List"
+home = "Home"
 recent_projects = "Recent Projects"
 more_projects = "More Projects"
 recent_blog_posts = "Recent Blog Posts"
@@ -71,6 +74,10 @@ next_page = "To older posts"
 # Customize your post date format. See: https://tera.netlify.app/docs/#date
 date_format = "%B %e, %Y"
 
+[extra.images]
+# Width defined in pixels
+max_width = 2500
+
 [extra.social]
 email = "angelinaheyler@gmail.com"
 github = "aheyler"
@@ -82,3 +89,6 @@ font_awesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/al
 [extra.ogp]
 first_name = "Angelina" 
 last_name = "Heyler"
+locale = "en_US"
+gender = ""
+username = ""
