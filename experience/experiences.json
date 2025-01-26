@@ -1,0 +1,38 @@
+[
+  { 
+    "title": "Data Scientist/Engineer", 
+    "company": "GSK,", 
+    "company_text": "Research Tech, Encoded Technologies", 
+    "company_link": "https://www.gsk.com/en-gb/",
+    "year": "Feb. 2022 - Present", 
+    "description": "Redeveloped platform's DNA sequencing data processing pipeline. Designed machine learning model to learn feature-rich molecular embeddings to enable robustly searching for common substructures driving protein-compound interaction. Designed new statistical method to identify binders from large-scale protein-compound interaction data.", 
+    "buttons_list": []
+  }, 
+  { 
+    "title": "Data Science Graduate Intern", 
+    "company": "Merck & Co., Ltd.,", 
+    "company_text": "Human Health", 
+    "company_link": "https://www.merck.com/",
+    "year": "June 2022 - Aug. 2022", 
+    "description": "Created predictive model to identify potential early adopter healthcare providers for marketing an upcoming drug launch. Analyzed longitudinal claims data to characterize patient journeys.",
+    "buttons_list": []
+  }, 
+  { 
+    "title": "Data Science Intern", 
+    "company": "Systems Engineering Group", 
+    "company_text": " ", 
+    "company_link": "https://www.merck.com/",
+    "year": "June 2021 - Aug 2021", 
+    "description": "Designed neural network to classify targets using radio frequency signals.",
+    "buttons_list": []
+  }, 
+  { 
+    "title": "Machine Learning Intern", 
+    "company": "Energenz Consulting, Ltd.", 
+    "company_text": "", 
+    "company_link": "https://www.merck.com/",
+    "year": "June 2020 - Aug 2020", 
+    "description": "Trained vector autoregression machine learning model to flag energy savings using HVAC IoT sensor data. Created connector from IoT HVAC data server to Python/R, enabling analyses and model training.",
+    "buttons_list": []
+  }
+]
