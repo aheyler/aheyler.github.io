@@ -12,7 +12,7 @@ theme = "papaya"
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
-highlight_themes_css = [ƒ
+highlight_themes_css = [
   { theme = "material-dark", filename = "syntax-theme-dark.css" },
   { theme = "material-light", filename = "syntax-theme-light.css" },
 ]
@@ -42,8 +42,6 @@ menu_items = [
 title = "Angelina Heyler"
 description = ""
 generate_feeds = true
-generate_feed = true
-feed_filename = "atom.xml"
 # The taxonomies to be rendered for the site and their configuration of the default languages
 taxonomies = [
     { name = "tags", feed = true, lang = "en" },
