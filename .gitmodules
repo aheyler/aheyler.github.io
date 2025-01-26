@@ -1,3 +1,6 @@
 [submodule "themes/zola-inky"]
 	path = themes/zola-inky
 	url = https://github.com/jimmyff/zola-inky.git
+[submodule "papaya"]
+	path = my_site/themes/papaya
+	url = https://github.com/justint/papaya.git
