@@ -11,29 +11,19 @@ insert_anchor_links = "right"
 
 # Hello there!
 
-My name is Angelina, and I am a data scientist passionate about using machine learning, statistics, and data-driven insights to create positive impact. In the past, I’ve explored internships in industries ranging from defense to energy efficiency, and I currently work to impact medicine and patient lives in early drug discovery. 
+My name is Angelina, and I am a data scientist passionate about developing machine learning models, statistical methods, and big-data solutions to create positive and data-driven impact.
 
-I’m particularly interested in deep learning, data privacy techniques such as federated learning, and statistics. As a data scientist at GSK, I enjoy writing pipelines to process and analyze large-scale sequencing data and innovating hit calling/similarity searching with statistics and machine learning to help drive portfolio decisions.
+Currently, I work to impact patient lives through early drug discovery as a data scientist at [GSK](https://us.gsk.com/en-us/home/?nis=6) part of the Encoded Technologies team. I write data pipelines, design machine learning models, and develop statistical methods to analyze the large-scale screening data that our platform generates. 
 
-
-# Experience
-
-- Education: 
-    - University of Pennsylvania - B.S.E. in Systems Engineering, M.S.E. in Data Science
-
-- Full-time work: 
-    - GSK 
-
-- Internships: 
-    - Merck & Co. - Upper Gwynedd, PA
-    - Systems Engineering Group - Columbia, MD
-    - Energenz Consulting Ltd. - Hong Kong, SAR China
+Before moving to Boston, I studied Systems Engineering (B.S.E.) and Data Science (M.S.E) at the [University of Pennsylvania](https://www.ese.upenn.edu/). I was fortunate to work with Professor Osbert Bastani on my master's thesis exploring uncertainty quantification in federated learning, as well as Professors Spyridon Bakas and Despina Kontos on [computer vision for estimating breast density from mammograms](http://arxiv.org/abs/2206.05575). As a data science intern for three summers, I used machine learning for healthcare provider marketing at [Merck](https://www.merck.com/), predicting targets from radio frequency data at [Systems Engineering Group](https://www.linkedin.com/company/systems-engineering-group/), and flagging HVAC equipment inefficiencies at [Energenz Consulting](https://www.energenz.com/). 
 
 
-# Manuscripts
-Muthukrishnan, R., **Heyler, A.**, Katti, K., Pati, S., Mankowski, W., Alahari, A., ..., Kontos, D., Bakas, S. (2023). MammoFL: Mammographic Breast Density Estimation using Federated Learning. arXiv. [http://arxiv.org/abs/2206.05575](http://arxiv.org/abs/2206.05575)
-
+# Interests
+- Deep learning, especially computer vision and graph neural networks
+- Statistical methods and probability
+- Data engineering, especially architecting big data solutions
 
 # Fun 
+Outside of work, I love running, playing Ultimate Frisbee, playing the piano, and cooking! 
 
- Data-science aside, I love running, playing Ultimate Frisbee, playing the piano, and cooking! 
+Please feel free to [say hello](mailto:angelinaheyler@gmail.com)!

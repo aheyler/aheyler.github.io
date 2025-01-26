@@ -1,0 +1,90 @@
+.block-list {
+    list-style-type: square;
+    line-height: 10px;
+    padding: 0px;
+}
+
+.block-item {
+    width: 90%;
+    align-items: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 0.01rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 0px solid black;
+    border-radius: 1%;
+    box-shadow: rgba(100, 100, 111, 0.3) 2px 2px 4px 4px;
+}
+
+.block-item-dates {
+    color: var(--text-accent-color);
+    font-size: 0.8em;
+    line-height: 100%;
+    font-weight: normal;
+    margin-top: 1.0em;
+    margin-bottom: 0.5em;
+}
+
+.block-item-title {
+    color: var(--link-hover-color);
+    font-weight: bold; 
+    line-height: 100%;
+    font-size: 1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.block-item-degree {
+    color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.block-item-company {
+    color: var(--link-color);
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;    
+}
+
+.block-item-company-text {
+    color: black;
+    font-size: 0.9em;
+    display: inline-block;
+    font-weight: normal;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.block-item-description {
+    color: black;
+    font-size: 0.9em;
+    font-weight: normal;
+    line-height: 120%;
+    margin-top: 0.5em;
+    margin-bottom: 1.0em;
+    white-space: pre-line;
+
+}
+
+.block-item-button {
+    color: black;
+    font-size: 0.9em;
+    font-weight: normal;
+    line-height: 120%;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 2px solid var(--link-hover-color);
+    border-radius: 3px;
+    color: var(--link-hover-color);
+    background-color: buttonface;
+    text-decoration: none;
+}
+

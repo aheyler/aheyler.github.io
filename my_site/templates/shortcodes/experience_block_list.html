@@ -1,0 +1,15 @@
+{% set data = load_data(path=src) %}
+
+<ul class="block-list">
+    {% for item in data %}
+    <li class="block-item">
+        <h3 class="block-item-dates">{{ item.year }}</h3>
+        <h2 class="block-item-title">{{ item.title }}</h2>
+        <a href={{ item.company_link }} class="block-item-company">{{ item.company }} </a> <h4 class="block-item-company-text">{{ item.company_text }}</h4>
+        <h4 class="block-item-description">{{ item.description }}</h4>
+        {% for button in item.buttons_list %}
+            <a href={{ button.link }} class="button">{{ button.name }} </a>
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>

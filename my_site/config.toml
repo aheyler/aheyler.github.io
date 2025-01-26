@@ -24,7 +24,8 @@ color_mode = "auto"
 
 # List of Papaya navigational menu items. Used to construct the navigation bar. See the README for item schema.
 menu_items = [
-    { name = "home", url = "$LANG_BASE_URL", show_recent = false },
+    { name = "home", url = "$LANG_BASE_URL/", show_recent = false },
+    { name = "experience", url = "$LANG_BASE_URL/experience", show_recent = false },
     { name = "projects", url = "$LANG_BASE_URL/projects", show_recent = false },
     #{ name = "projects_list", url = "$LANG_BASE_URL/projects_list", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
     #{ name = "blog", url = "$LANG_BASE_URL/blog", show_recent = true, recent_items = 3, recent_trans_key = "recent_blog_posts", more_trans_key = "more_blog_posts" },
@@ -39,7 +40,6 @@ menu_items = [
 title = "Angelina Heyler"
 description = ""
 generate_feeds = true
-feed_filenames = ["atom.xml"]
 # The taxonomies to be rendered for the site and their configuration of the default languages
 taxonomies = [
     { name = "tags", feed = true, lang = "en" },
@@ -51,6 +51,7 @@ projects = "Projects"
 blog = "Blog"
 about = "About"
 home = "Home"
+experience = "Experience"
 projects_list = "Projects List"
 recent_projects = "Recent Projects"
 more_projects = "More Projects"
@@ -71,13 +72,9 @@ next_page = "To older posts"
 date_format = "%B %e, %Y"
 
 [extra.social]
-email = "papaya@tiliqua.sp"
+email = "angelinaheyler@gmail.com"
 github = "aheyler"
 linkedin = "angelina-heyler"
-other = [
-    { name = "BTC", font_awesome = "fa-brands fa-btc", url = "https://www.bitcoin.com/" }
-]
-
 
 [extra.cdn]
 font_awesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"

@@ -1,0 +1,18 @@
+[
+  { 
+    "title": "University of Pennsylvania", 
+    "degree": "Master of Science in Engineering, Data Science", 
+    "company_link": "https://www.gsk.com/en-gb/",
+    "year": "Jan. 2021 - Dec. 2022", 
+    "description": "GPA: 3.94/4.00\nCourses: Deep Learning, Natural Language Processing, Databases, Optimization, Statistics\nThesis: PAC Prediction Sets for Deep Neural Networks Trained via Federated Learning   ", 
+    "buttons_list": []
+  }, 
+  { 
+    "title": "University of Pennsylvania", 
+    "year": "Aug. 2018 - May 2022", 
+    "degree": "Bachelor of Science in Engineering, Systems Engineering", 
+    "company_link": "https://www.med.upenn.edu/cbica/", 
+    "description": "GPA: 3.94/4.00\nHonors: Summa Cum Laude, Eta Kappa Nu Honor Society, Dean’s List\nMinors: Computer Science, Math, Data Science\nCourses: Engineering Probability (served as Teaching Assistant), Stochastic Simulations, Signal Processing, Data Structures & Algorithms, Linear Algebra, Network Theory, Big Data Analytics", 
+    "buttons_list": []
+  }
+]
