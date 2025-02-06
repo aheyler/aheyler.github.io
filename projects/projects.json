@@ -1,0 +1,30 @@
+[
+  { 
+    "title": "MammoFL: Mammographic Breast Density Estimation using Federated Learning", 
+    "year": "Sep. 2021 - Oct. 2022", 
+    "company": "Penn Medicine, Center for Biomedical Image Computing & Analytics", 
+    "company_link": "https://www.med.upenn.edu/cbica/", 
+    "description": "Breast cancer is the fifth leading cause of death worldwide, yet survival odds are 99% when it is caught early. In this work, we seek to use computer vision to aid radiologists in making quantitative, consistent, and precise diagnoses. We trained a deep segmentation model (U-net) to segment areas of dense tissue within the breast in mammograms, in order to provide a breast percent density estimate achieving <5% point mean absolute error. As a baseline, current visual assessments are estimated to have 10-30% error. Furthermore, as patient data is sensitive and often siloed by hospital, we use federated learning to train on separated multi-hospital data and show that training under federated learning achieves comparable accuracy to a traditional, centralized training paradigm. \n\nManuscript: \nRamya Muthukrishnan, Angelina Heyler, Keshava Katti, Sarthak Pati, Walter Mankowski, Aprupa Alahari, Michael Sanborn, Emily F. Conant, Christopher Scott, Stacey Winham, Celine Vachon, Pratik Chaudhari, Despina Kontos, Spyridon Bakas (2023). MammoFL: Mammographic Breast Density Estimation using Federated Learning. arXiv. http://arxiv.org/abs/2206.05575",
+    "buttons_list": [
+      {
+        "link": "https://arxiv.org/abs/2206.05575", 
+        "name": "arxiv"
+      }
+    ]
+  }, 
+  { 
+    "title": "PAC Prediction Sets for Deep Neural Networks Trained via Federated Learning", 
+    "year": "Jan. 2022 - Dec. 2022", 
+    "company": "Penn Engineering", 
+    "company_link": "https://www.cis.upenn.edu/", 
+    "description": "Advisor: Professor Osbert Bastani, Sangdon Park\nOne challenge in machine learning is determining whether model predictions are trustworthy. One promising approach to build trust is to quantify the uncertainty of model predictions with probably approximately correct (PAC) prediction sets, or sets of values that contain the true label with at most some error with high probability. While prior work addresses how to do this on centralized data, growing applications of ML to decentralized data also motivate a decentralized approach such as federated learning. We propose an algorithm and show experiments on constructing PAC prediction sets for deep neural networks trained with federated learning, with statistical guarantees for correctness.", 
+    "buttons_list": [
+      {
+        "link": "https://github.com/aheyler/federated-PAC-pred-set", 
+        "name": "git"
+      }
+    ]
+  }
+]
+
+
